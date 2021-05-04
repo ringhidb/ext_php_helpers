@@ -1,0 +1,9 @@
+{
+    "name": "ringhidb/ext_php_helpers",
+    "type": "library",
+    "description": "Common PHP Functions",
+    "keywords": ["php", "HTTP", "Mail", "Net"],
+    "require": {
+        "php": ">=7.0.0"
+    }
+}
