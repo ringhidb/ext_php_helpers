@@ -1,4 +1,6 @@
 <?php
+
+namespace Ringhidb\CommonPHP;
 /**
  * PEAR's Mail:: interface.
  *

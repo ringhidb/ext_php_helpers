@@ -1,4 +1,6 @@
 <?php
+
+namespace Ringhidb\CommonPHP;
 /**
  * Class representing a HTTP request message
  *
