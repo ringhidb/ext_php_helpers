@@ -1,9 +1,14 @@
 {
-    "name": "ringhidb/ext_php_helpers",
+    "name": "ringhidb/ext-php-helpers",
     "type": "library",
     "description": "Common PHP Functions",
     "keywords": ["php", "HTTP", "Mail", "Net"],
     "require": {
         "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ringhidb\\CommonPHP\\": "src/"
+        }
     }
 }
