@@ -1,6 +1,6 @@
 <?php
 
-namespace Ringhidb\CommonPHP;
+
 /**
  * Class representing a HTTP request message
  *
@@ -43,7 +43,7 @@ require_once 'HTTP/Request2/Exception.php';
  * @link     http://pear.php.net/package/HTTP_Request2
  * @link     http://tools.ietf.org/html/rfc2616#section-5
  */
-class HTTP_Request2 implements \SplSubject
+class HTTP_Request2 implements SplSubject
 {
     /**#@+
      * Constants for HTTP request methods
@@ -722,7 +722,7 @@ class HTTP_Request2 implements \SplSubject
      *
      * @param SplObserver $observer any object implementing SplObserver
      */
-    public function attach(\SplObserver $observer)
+    public function attach(SplObserver $observer)
     {
         foreach ($this->observers as $attached) {
             if ($attached === $observer) {
@@ -737,7 +737,7 @@ class HTTP_Request2 implements \SplSubject
      *
      * @param SplObserver $observer any object implementing SplObserver
      */
-    public function detach(\SplObserver $observer)
+    public function detach(SplObserver $observer)
     {
         foreach ($this->observers as $key => $attached) {
             if ($attached === $observer) {
