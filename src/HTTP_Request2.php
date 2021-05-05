@@ -43,7 +43,7 @@ require_once 'HTTP/Request2/Exception.php';
  * @link     http://pear.php.net/package/HTTP_Request2
  * @link     http://tools.ietf.org/html/rfc2616#section-5
  */
-class HTTP_Request2 implements SplSubject
+class HTTP_Request2 implements \SplSubject
 {
     /**#@+
      * Constants for HTTP request methods
